@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.detallePelicula {
+    max-width: 50%;
+    font-size: 1.2rem;
+    margin: 15px;
+    text-align: justify;
+}
+
+.movieImage {
+    float: left;
+    height: min-content;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.genericFilmImage {
+    width: 200px;   
+    height: min-content;
+}
+
+.item {
+    margin-top: 0;
+}
+
+@media(max-width: 767px) {
+    .movieImage, .genericFilmImage {
+        width: 50%;
+    }
+    .container {
+        display:inline-block;
+    }
+    .detallePelicula {
+        max-width: 100%;
+    }
+}

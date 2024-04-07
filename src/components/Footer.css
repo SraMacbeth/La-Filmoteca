@@ -1,0 +1,11 @@
+.footerContainer {
+    text-align: center;
+    background-color: lightblue;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerText {
+    margin: 0 auto;
+    padding: 20px;
+
+}
